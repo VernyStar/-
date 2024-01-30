@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title></title>
-  <link rel="stylesheet" href="../css/src/page.css">
+  <link rel="stylesheet" href="./css/main.css">
   <script>
     var images = [];
     function preload() {
@@ -21,6 +21,9 @@ preload(
 );
 if (preload) console.log("Готово")
   </script>
+  <script src="./js/cards.js"></script>
+  <script src="./js/AlertSV.min.js"></script>
+
 </head>
 
 <body>
@@ -38,9 +41,9 @@ if (preload) console.log("Готово")
       <div class="pane active" id="home">
         <div class="logo-box">
           <div class="logo-text">Дурень</div>
-          <img src="/images/backgrounds/logo0.webp" alt="Логотип">
-          <img src="../images/backgrounds/logo1.webp" alt="Логотип">
-          <img src="../images/backgrounds/logo2.webp" alt="Логотип">
+          <img src="./images/logo0.webp" alt="Логотип">
+          <img src="./images/logo1.webp" alt="Логотип">
+          <img src="./images/logo2.webp" alt="Логотип">
         </div>
         <ul class="btn-menu">
           <li><button type="button" id="start" data-id="game">Розпочати гру</button></li>
@@ -174,7 +177,9 @@ if (preload) console.log("Готово")
       <div class="pane"></div>
     </div>
   </div>
-  <script src="../js/all.min.js"></script>
+  <script src="./js/helpers.js"></script>
+  <script src="./js/NewElements.js"></script>
+  <script src="./js/DurenSV.js"></script>
 </body>
 
 </html>
