@@ -5,7 +5,7 @@
 
 :root, 
 [data-deck=basic] {
-  --cards-img: url("../images/deck/cards.svg.png");
+  --cards-img: url("../images/cards.svg.png");
   --cards-img-bg-size: 1523% 427.7%;
   --cards-img-bradius: 9.25px;
   --card-back: var(--cards-img);
