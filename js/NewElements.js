@@ -9,7 +9,7 @@ HideElement($("Pass"));
 HideElement($("Take"));
 HideElement($("Stop"));
 $("burger").onclick = () => {
-  PlaySound("../audio/inMenu.mp3", 0.05);
+  PlaySound("./audio/inMenu.mp3", 0.05);
   navigator.vibrate([15, 15, 30, 20]);
   ToggleStan("part-menu");
 }
