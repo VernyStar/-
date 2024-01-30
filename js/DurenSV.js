@@ -709,15 +709,6 @@ const DurenSV = function() {
               this.CheckCardAttack(this.$deck[i]) === true || this.$stil.$attack.length === 0
             ) {
               minCardCost = this.$deck[i].$cost;
-              current = this.$deck[i];
-            }
-          }
-        }
-        if (current !== null) {
-          this.Attack(current);
-        }
-      }
-      return current;
 const DurenSV = function() {
   class PlayCard {
     constructor(rank, suit, cost) {
@@ -1516,55 +1507,4 @@ const DurenSV = function() {
     TogglePane()
     Engine.LoadGamePage(); }
 }
-window.onload = DurenSV()￼Enter    }
-    EnemyDefend(attkCard) {
-      let minCardCost = 30;
-      let current = null;
-      for (let i = 0; i < this.$deck.length; i++) {
-        if (this.CheckCardDefend(this.$deck[i], attkCard) === true) {
-          if (minCardCost > this.$deck[i].$cost) {
-            minCardCost = this.$deck[i].$cost;
-            current = this.$deck[i];
-          }
-        }
-      }
-      if (minCardCost !== 30) {
-        this.Defend(current, attkCard);
-        return current;
-      }
-      return current;
-    }
-  }
-  class MainTable {
-    constructor(opponent, player) {
-      this.$opponent = opponent;
-      this.$player = player;
-      this.$attack = [];
-      this.$defend = [];
-    }
-t opponent(opponent) {
-      this.$opponent = opponent;
-    }
-    set player(player) {
-      this.$player = player;
-    }
-    set attack(card) {
-      this.$attack.push(card);
-    }
-    set defend(card) {
-      this.$defend.push(card);
-    }
-    ClearTable() {
-      for (let i = 0; i < this.$defend.length; i++) {
-        this.$defend.pop();
-      }
-      for (let i = 0; i < this.$attack.length; i++) {
-        this.$attack.pop();
-      }
-    }
-  }
-  let Player = new InitUser();
-  let Supernik = new InitEnemy();
-  let Koloda = new GetDeck(Player, Supernik);
-  let GameTable = new MainTable();
-  let Engine = new GamePlay(Player, Supernik, Koloda, GameTable);
+window.onload = DurenSV()￼Enter
