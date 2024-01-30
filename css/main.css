@@ -5,7 +5,7 @@
 
 :root, 
 [data-deck=basic] {
-  --cards-img: url("../../images/Колода/Французька колода/cards.svg.png");
+  --cards-img: url("../../images/deck/cards.svg.png");
   --cards-img-bg-size: 1523% 427.7%;
   --cards-img-bradius: 9.25px;
   --card-back: var(--cards-img);
@@ -18,7 +18,7 @@
   --turn: #66f605;
 }
 [data-deck=bicycle] {
-  --card-back: url("../../images/Колода/Bicycle/bicyclebacks.jpg");
+  --card-back: url("../../images/deck/bicyclebacks.jpg");
 }
 @media screen and (prefers-reduced-motion: reduce) {
   * {
@@ -82,7 +82,7 @@ html {
   user-select: none;
 }
 body {
-  background: var(--body-color) url("../../images/backgrounds/bgMain.webp") center center no-repeat;
+  background: var(--body-color) url("../../images/bgMain.webp") center center no-repeat;
   background-size: 100% 100%;
   background-blend-mode: overlay;
   color-scheme: dark;
@@ -340,7 +340,7 @@ body {
   position: relative;
   width: 75%;
   height: 50px;
-  background: url("../../images/backgrounds/ribbon.webp") center center no-repeat;
+  background: url("../../images/ribbon.webp") center center no-repeat;
   background-size: 100% 100%;
   padding-bottom: 6px;
   font-weight: bolder;
