@@ -1531,3 +1531,84 @@ section.upcoming h1 {
   background: #2daae1;
   color: white;
 }
+.material-button button.tw:active, .material-button input[type=submit].tw:active {
+  background: #187da9 !important;
+}
+.material-button button.fb, .material-button input[type=submit].fb {
+  background: #3b5997;
+}
+.material-button button.fb:hover, .material-button button.fb:focus, .material-button input[type=submit].fb:hover, .material-button input[type=submit].fb:focus {
+  background: #5e7ec0;
+}
+.material-button button.fb.connected, .material-button input[type=submit].fb.connected {
+  background: #ebebeb;
+  color: #343434;
+}
+.material-button button.fb.connected:hover, .material-button button.fb.connected:focus, .material-button input[type=submit].fb.connected:hover, .material-button input[type=submit].fb.connected:focus {
+  background: #3b5997;
+  color: white;
+}
+.material-button button.fb:active, .material-button input[type=submit].fb:active {
+  background: #263960 !important;
+}
+.material-button button.li, .material-button input[type=submit].li {
+  background: #069;
+}
+.material-button button.li:hover, .material-button button.li:focus, .material-button input[type=submit].li:hover, .material-button input[type=submit].li:focus {
+  background: #0099e6;
+}
+.material-button button.li.connected, .material-button input[type=submit].li.connected {
+  background: #ebebeb;
+  color: #343434;
+}
+.material-button button.li.connected:hover, .material-button button.li.connected:focus, .material-button input[type=submit].li.connected:hover, .material-button input[type=submit].li.connected:focus {
+  background: #069;
+  color: white;
+}
+.material-button button.li:active, .material-button input[type=submit].li:active {
+  background: #00334d !important;
+}
+.material-button.center div {
+  display: flex;
+  justify-content: center;
+}
+@-webkit-keyframes rotateIn {
+  0% {
+    opacity: 0;
+    transform: rotateX(30deg) rotateY(30deg) translateY(300px) translateZ(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes rotateIn {
+  0% {
+    opacity: 0;
+    transform: rotateX(30deg) rotateY(30deg) translateY(300px) translateZ(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) translateZ(0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) translateZ(0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
