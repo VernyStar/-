@@ -82,7 +82,7 @@ html {
   user-select: none;
 }
 body {
-  background: var(--body-color) url("./images/bgMain.webp") center center no-repeat;
+  background: var(--body-color) url("../images/bgMain.webp") center center no-repeat;
   background-size: 100% 100%;
   background-blend-mode: overlay;
   color-scheme: dark;
