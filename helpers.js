@@ -1,4 +1,4 @@
-function _ (el) {
+function _(el) {
   return document.createElement(el);
 }
 function $first(parent) {
