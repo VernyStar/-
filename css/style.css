@@ -9,7 +9,7 @@
   --l1: 0; --l2: 0;
 }
 [data-deck=basic] {
-  --cards-img: url("../images/deck/french/cards.svg.png");
+  --cards-img: url("../images/cards.svg.png");
   --cards-bg-size: 1523% 427.7%;
   --card-back: var(--cards-img);
   --card-back-bg-size: var(--cards-bg-size);
@@ -17,9 +17,9 @@
   --cards-border-radius: 9.25px;
 }
 [data-deck=english-cards] {
-  --cards-img: url("../images/deck/bicycle/english.svg.png");
+  --cards-img: url("../images/english.svg.png");
   --cards-bg-size: 1425% 427.7%;
-  --card-back: url("../images/deck/bicycle/bicyclebacks.jpg");
+  --card-back: url("../images/bicyclebacks.jpg");
   --card-back-bg-size: 202.5% 102.5%;
   --card-back-bg-position: left 90%;
   --cards-border-radius: 9.25px;
