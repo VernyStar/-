@@ -1,0 +1,116 @@
+{
+  "sounds":
+  {
+    "links": [
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/audio/btnMenu.mp3",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/d02e0e94f9961bdacc7f966dfb7159d8aab690b7/audio/inMenu.mp3",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/ad55c9da34092102a94632ff9dbb243b374af409/audio/take_card.mp3",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/0bbe59a0c17df0b152276b8d0f6d5eb7a2af6a92/audio/drop_cards.mp3"
+      ]
+  },
+  "images":
+  {
+    "links": [
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/images/logo0.webp",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/images/logo1.webp",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/images/logo2.webp",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/images/public/mainLOGO.webp",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/913f7fc42b45d3a2da6ac635f87294385fc28319/images/ribbon.webp",
+        "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/ad55c9da34092102a94632ff9dbb243b374af409/images/cards.svg.png"
+      ]
+  },
+  "colors": 
+  {
+    "home":
+    {
+      "theme":
+      {
+        "dark":
+        {
+          "color": "hsla(204, 94%, 7%, 1)",
+          "border": "hsla(203, 82%, 20%, 1)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5px)",
+          "blend": "none",
+          "header": "none"
+        },
+        "light":
+        {
+          "color": "hsla(204, 94%, 7%, 1)",
+          "border": "hsla(182, 43%, 76%, 0.2)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(4.5px)",
+          "blend": "none",
+          "header": "none"
+        }
+      }
+    },
+    "game":
+    {
+      "theme":
+      {
+        "dark":
+        {
+          "color": "hsla(121, 80%, 8%, 1)",
+          "border": "hsla(121, 64%, 17%, 0.8)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5.5px)",
+          "header": "brightness(85%)"
+        },
+        "light":
+        {
+          "color": "hsla(121, 84%, 8%, 1)",
+          "border": "hsla(121, 64%, 17%, 0.7)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5px)",
+          "header": "none"
+        }
+      }
+    },
+    "settings":
+    {
+      "theme":
+      {
+        "dark":
+        {
+          "color": "hsla(204, 94%, 7%, 1)",
+          "border": "hsla(200, 95%, 14%, 1)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5.5px)",
+          "header": "none"
+        },
+        "light":
+        {
+          "color": "hsla(204, 94%, 7%, 1)",
+          "border": "hsla(203, 82%, 20%, 1)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5px)",
+          "header": "none"
+        }
+      }
+    },
+    "rules":
+    {
+      "theme":
+      {
+        "dark":
+        {
+          "color": "hsla(204, 94%, 7%, 1)",
+          "border": "hsla(121, 64%, 17%, 0.8)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(3.5px)",
+          "header": "none"
+        },
+        "light":
+        {
+          "color": "hsla(218, 17%, 62%, 1)",
+          "border": "hsla(203, 82%, 20%, 1)",
+          "body": "hsla(220, 29%, 28%, 1)",
+          "blur": "blur(5px)",
+          "header": "none",
+          "burger": ""
+        }
+      }
+    }
+  }
+}
