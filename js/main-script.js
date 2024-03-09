@@ -356,7 +356,7 @@ function SetAudio() {
   });
 }
 function SetImages() {
-  GetLinks("/options.json", function() {
+  GetLinks("https://rawcdn.githack.com/VernyStar/Duren-Card-Game/c07982f022df6b11bec4c45176153ab9d16d36c2/options.json", function() {
     let links = this["images"]["links"];
     PreloadImages(links, SetImage);
     function SetImage() {
@@ -513,7 +513,7 @@ function ToggleSettings(id) {
 
 function SetColors(page) {
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "/options.json");
+  xhr.open("GET", "https://rawcdn.githack.com/VernyStar/Duren-Card-Game/c07982f022df6b11bec4c45176153ab9d16d36c2/options.json");
   xhr.responseType = "json";
   xhr.send();
   xhr.onload = function() {
